@@ -1,7 +1,6 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Aug 22 20:33:22 2021
-
-@author: narut
-"""
-
+class Airplane:
+    def __init__(self,airplanType,airplanRange,seats):
+        self.airplanType = airplanType
+        self.airplanRange = airplanRange
+        self.seats = seats
+        
