@@ -25,37 +25,37 @@ HongKong = apt.Airport("HKG","HKG")
 
 ######################################################	
 	
-# print("(1.2)-------------------------------")	
-# CRJ700 = apn.Airplane("Bombardier CRJ700",4660,78)
-# print(CRJ700.airplanType)
-# print(CRJ700.airplanRange)
-# print(CRJ700.seats)
-# 		
-# B787 = apn.Airplane("Boeing 787",14800,290)
-# A320 = apn.Airplane("Airbus A320",6150,160)
-# C172 = apn.Airplane("Cessna 172",1289,3)		
-# 		
+print("(1.2)-------------------------------")	
+CRJ700 = apn.Airplane("Bombardier CRJ700",4660,78)
+print(CRJ700.airplanType)
+print(CRJ700.airplanRange)
+print(CRJ700.seats)
+
+B787 = apn.Airplane("Boeing 787",14800,290)
+A320 = apn.Airplane("Airbus A320",6150,160)
+C172 = apn.Airplane("Cessna 172",1289,3)		
+		
+######################################################
+
+print("(1.3)-------------------------------")
+YYZFRA = fl.Flight(872,Toronto,Frankfurt,6343.66)
+print(YYZFRA.flightNumber)
+print(YYZFRA.origin.code)	
+print(YYZFRA.destination.code)	
+print(YYZFRA.distance)
+print(YYZFRA)
+
+YYZYOW = fl.Flight(446,Toronto,Ottawa,362.08)
+HKGYVR = fl.Flight(8,HongKong,Vancouver,10272.73)
+
 # ######################################################
-
-# print("(1.3)-------------------------------")
-# YYZFRA = fl.Flight(872,Toronto,Frankfurt,6343.66)
-# print(YYZFRA.flightNumber)
-# print(YYZFRA.origin.code)	
-# print(YYZFRA.destination.code)	
-# print(YYZFRA.distance)
-# print(YYZFRA)
-
-# YYZYOW = fl.Flight(446,Toronto,Ottawa,362.08)
-# HKGYVR = fl.Flight(8,HongKong,Vancouver,10272.73)
-
-# ######################################################
 # 		
-# print("(1.4)-------------------------------")
-# passengers = [pg.Passenger("Susan",111111),pg.Passenger("Tom",222222),pg.Passenger("Alice",0),pg.Passenger("Mike",333333),pg.Passenger("Peter",0)]
-# print(passengers[0].name)
-# print(passengers[0].passportNumber)
-# print(passengers[4].name)
-# print(passengers[4].passportNumber)
+print("(1.4)-------------------------------")
+passengers = [pg.Passenger("Susan",111111),pg.Passenger("Tom",222222),pg.Passenger("Alice",0),pg.Passenger("Mike",333333),pg.Passenger("Peter",0)]
+print(passengers[0].name)
+print(passengers[0].passportNumber)
+print(passengers[4].name)
+print(passengers[4].passportNumber)
 
 # ######################################################		
 # 		
