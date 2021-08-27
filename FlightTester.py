@@ -38,15 +38,15 @@ C172 = apn.Airplane("Cessna 172",1289,3)
 ######################################################
 
 print("(1.3)-------------------------------")
-YYZFRA = fl.Flight(872,Toronto,Frankfurt,6343.66,[])
+YYZFRA = fl.Flight(872,Toronto,Frankfurt,6343.66)
 print(YYZFRA.flightNumber)
 print(YYZFRA.origin.code)	
 print(YYZFRA.destination.code)	
 print(YYZFRA.distance)
 print(YYZFRA)
 
-YYZYOW = fl.Flight(446,Toronto,Ottawa,362.08,[])
-HKGYVR = fl.Flight(8,HongKong,Vancouver,10272.73,[])
+YYZYOW = fl.Flight(446,Toronto,Ottawa,362.08)
+HKGYVR = fl.Flight(8,HongKong,Vancouver,10272.73)
 
 ######################################################
 		
@@ -77,9 +77,9 @@ for p in passengerList:
 		
 # ######################################################
 # 		
-# print("(3)-------------------------------")		
-# print("Passenger " + passengers[0].name + "'s first flight is from " + passengers[0].flights[0].origin.code + " to " + passengers[0].flights[0].destination.code + ".")
-# 	
+print("(3)-------------------------------")		
+print("Passenger " + passengers[0].name + "'s first flight is from " + passengers[0].flights[0].origin.code + " to " + passengers[0].flights[0].destination.code + ".")
+ 	
 # ######################################################
 # 		
 # print("(4.1)-------------------------------")
