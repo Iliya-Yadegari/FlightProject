@@ -81,41 +81,41 @@ print("(3)-------------------------------")
 print("Passenger " + passengers[0].name + "'s first flight is from " + passengers[0].flights[0].origin.code + " to " + passengers[0].flights[0].destination.code + ".")
  	
 # ######################################################
-# 		
-# print("(4.1)-------------------------------")
-# if (YYZFRA.setPlane(A320)):
-#     print("A320 added successfully!")
-# else:
-#     print("The A320's range is too small. Use a different plane.")			
+		
+print("(4.1)-------------------------------")
+if (YYZFRA.setPlane(A320)):
+    print("A320 added successfully!")
+else:
+    print("The A320's range is too small. Use a different plane.")			
 
 # ######################################################
 
-# print("(4.2)-------------------------------")
-# if (YYZFRA.setPlane(B787)):
-#     print("787 added successfully!")
-# else:
-#     print("The 787's range is too small. Use a different plane.")			
+print("(4.2)-------------------------------")
+if (YYZFRA.setPlane(B787)):
+    print("787 added successfully!")
+else:
+    print("The 787's range is too small. Use a different plane.")			
 
 # ######################################################
 
-# print("(5.1)-------------------------------")
-# YYZYOW.setPlane(C172);
-# n = YYZYOW.overBooked();
-# if (n == 0):
-#     print("Flight from Toronto to Ottawa has space left.")
-# else:
-#     print("Flight from Toronto to Ottawa has " , n , " passengers too many.")
+print("(5.1)-------------------------------")
+YYZYOW.setPlane(C172);
+n = YYZYOW.overBooked();
+if (n == 0):
+    print("Flight from Toronto to Ottawa has space left.")
+else:
+    print("Flight from Toronto to Ottawa has " , n , " passengers too many.")
 
 # ######################################################  
 # 		
-# print("(5.2)-------------------------------");
-# for p in passengers:
-#     YYZFRA.addPassenger(p)
-# n2 = YYZFRA.overBooked();
-# if n2 == 0:
-#     print("Flight from Toronto to Frankfurt has space left.")
-# else:
-#     print("Flight from Toronto to Frankfurt has " , n2 , " passengers too many.")
+print("(5.2)-------------------------------");
+for p in passengers:
+    YYZFRA.addPassenger(p)
+n2 = YYZFRA.overBooked();
+if n2 == 0:
+    print("Flight from Toronto to Frankfurt has space left.")
+else:
+    print("Flight from Toronto to Frankfurt has " , n2 , " passengers too many.")
 
 # ######################################################
 
