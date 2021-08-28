@@ -119,32 +119,32 @@ else:
 
 # ######################################################
 
-# print("(6.1)-------------------------------")		
-# if (YYZYOW.isInternational()):
-#     print("Flight from Toronto to Ottawa is international.")
-# else:
-#     print("Flight from Toronto to Ottawa is domestic.")
+print("(6.1)-------------------------------")		
+if (YYZYOW.isInternational()):
+    print("Flight from Toronto to Ottawa is international.")
+else:
+    print("Flight from Toronto to Ottawa is domestic.")
 
 # ######################################################
 
-# print("(6.2)-------------------------------")
-# if (YYZFRA.isInternational()):
-#     print("Flight from Toronto to Frankfurt is international.")
-# else:
-#     print("Flight from Toronto to Frankfurt is domestic.")
+print("(6.2)-------------------------------")
+if (YYZFRA.isInternational()):
+    print("Flight from Toronto to Frankfurt is international.")
+else:
+    print("Flight from Toronto to Frankfurt is domestic.")
 
 # ######################################################		
 
-# print("(7)-------------------------------")	
-# print("Passengers on flight from Toronto to Frankfurt without passport:")
-# noPassportsList =  YYZFRA.noPassports()
-# for p in noPassportsList:
-#     print(p.name)
+print("(7)-------------------------------")	
+print("Passengers on flight from Toronto to Frankfurt without passport:")
+noPassportsList =  YYZFRA.noPassports()
+for p in noPassportsList:
+    print(p.name)
 
 # ######################################################
 # 	
-# print("(8)-------------------------------")			
-# HKGYVR.addPassenger(passengers[0])
-# 				
-# print(passengers[0].name + " has " , passengers[0].calculatePoints() , " frequent flyer points.");
-# 		
+print("(8)-------------------------------")			
+HKGYVR.addPassenger(passengers[0])
+				
+print(passengers[0].name + " has " , passengers[0].calculatePoints() , " frequent flyer points.");
+		
