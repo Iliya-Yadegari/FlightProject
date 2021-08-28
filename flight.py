@@ -32,10 +32,20 @@ class Flight:
             return 0
     
     def isInternational(self):
-        if self.origin.code == self.destination.code:
+        if self.origin.country == self.destination.country:
             
-            return True
+            return False
         
         else:
             
-            return False
+            return True
+    
+    def noPassports(self):
+        
+        noPass = []
+        
+        for p in self.passengers:
+            if p.passportNumber == 0:
+                noPass.append(p)
+        
+        return noPass
